@@ -1,0 +1,76 @@
+/*========================================================== index.html */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+.container2 {
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.index_text_enter {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.index_text_enter a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  letter-spacing: 0.5em;
+  color: rgb(24, 24, 24);
+  text-align: center;
+}
+.index_element {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.index_logo {
+  margin: auto;
+}
+.index_logo img {
+  width: 300px;
+}
+
+.index_content {
+  height: 60%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.index_text1 {
+  color: #00467f;
+}
+.index_text2 {
+  color: #d6a970;
+}
+
+@media screen and (max-width: 650px) {
+  body {
+  }
+  .index_logo img {
+    width: 300px;
+  }
+  .index_text img {
+    width: 100%;
+  }
+  .index_text_enter {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .index_text img {
+    width: 100%;
+  }
+}
